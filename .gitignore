@@ -1,0 +1,85 @@
+##########################
+# Node (client + server)
+##########################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json # optional
+
+##########################
+# Environment Variables
+##########################
+.env
+.env.*
+client/.env.*
+server/.env.*
+!.env.example
+
+##########################
+# Logs
+##########################
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+##########################
+# Coverage & Testing
+##########################
+coverage/
+.nyc_output/
+.vscode-test/
+
+##########################
+# Build Outputs (all frameworks)
+##########################
+dist/
+build/
+public/build/
+.next/
+out/
+tmp/
+temp/
+*.gz
+
+##########################
+# Frontend (Vite)
+##########################
+*.cache/
+.cache/
+vite.svg
+
+##########################
+# System Files
+##########################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+##########################
+# IDE / Editors
+##########################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+##########################
+# OS Misc
+##########################
+*.bak
+*.orig
+
+##########################
+# Project Data
+##########################
+uploads/
+data/
+db.sqlite3
